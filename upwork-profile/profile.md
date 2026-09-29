@@ -1,8 +1,13 @@
-# Upwork プロフィール案（v1）
+# Upwork プロフィール案（v2）
 
 英語の部分は、そのままUpworkに貼り付けられる形にしています。各セクションの後に日本語訳やメモをつけています。
 
-**打ち出し方**：「日本で事業を立ち上げ、伸ばしたい海外のヘルスケア・製薬・メドテック企業を、戦略から実行まで支援するバイリンガルの専門家」
+**打ち出し方**：「日本市場への参入や拡大を検討する海外のヘルスケア・製薬・メドテック企業に、スポットで専門的な助言を提供するアドバイザー」
+
+**v1からの主な変更点**
+- 文体：問いかけで始めるのをやめ、主語の「I」をほぼ使わない、コンサルティングファームのプロフィールに近い文体にしました。
+- 関与の範囲：「実行まで伴走」「日本側窓口」など、継続的な関与を約束する表現を削除しました。範囲と成果物がはっきりした短期案件（助言、調査、レビュー）を受ける形にしています。
+- Specialized Profile：継続的な関与が前提になりやすい「PM / PMO」をやめ、「GTM・医師マーケティングのアドバイザリー」に差し替えました。
 
 【要確認】と書いた箇所は、ご本人に確認していただきたい点です。
 
@@ -12,114 +17,118 @@
 
 **おすすめ**
 
-Japan Market Entry & Growth for Healthcare, Pharma & MedTech
+Japan Market Entry Advisor | Healthcare, Pharma & MedTech
 
 **ほかの候補**
 
-- Bilingual Project Manager | Japan Healthcare, Pharma & MedTech
-- Healthcare Marketing & Business Development Strategist for Japan
+- Japan Healthcare Market Research & Go-to-Market Advisory
+- Healthcare Business Consultant for Japan | Bilingual JP/EN
 
-> 日本語訳：ヘルスケア・製薬・メドテック企業の日本市場参入と成長を支援
+> 日本語訳：日本市場参入アドバイザー｜ヘルスケア・製薬・メドテック
 >
-> Upworkのクライアントは「Japan」「Healthcare」「Pharma」などのキーワードで検索します。肩書きには職種名よりも、クライアントが得られる結果を書くほうが効果的です。
+> 「Growth」や「Project Manager」は継続的な関与を連想させるため、「Advisor」「Advisory」「Consultant」を使っています。
 
 ---
 
 ## 2. Overview（自己紹介文）
 
-Planning to launch or grow a healthcare, pharma, or MedTech business in Japan? I help international companies turn their Japan strategy into results, from market research and go-to-market planning to physician marketing and sales execution.
+Advisory support for international healthcare, pharmaceutical, and MedTech companies evaluating or expanding their presence in Japan, covering market assessment, go-to-market strategy, and physician engagement, through focused, project-based engagements.
 
-I have 15 years of experience in Japan across healthcare, technology, and consulting. I'm bilingual in Japanese and English and hold a BBA from SUNY Geneseo in the US, so I can work smoothly between your headquarters and Japanese stakeholders.
+Bilingual (Japanese/English) professional with 15 years of experience across management consulting (PwC), healthcare IT, pharmaceutical marketing, and a global manufacturer. BBA, State University of New York at Geneseo.
 
-WHAT I'VE DONE
+RELEVANT EXPERIENCE
 
-- Japan partner for a US telehealth leader: I was the main Japan-side contact for Teladoc Health at WeMex. I built the business plan and KPIs, turned US product and case information into materials for the Japanese market, recruited US physicians to speak at Japanese seminars, and set up sales partnerships with medical device companies.
-- Pharma marketing: As a Project Manager at Medii, a Tokyo health-tech startup, I plan and run disease-specific marketing programs with pharmaceutical companies to bring specialist knowledge to primary care physicians.
-- Hospital sales from trial to purchase: I designed a telehealth trial with a university hospital, including success metrics and outcome data, and supported the client all the way through internal purchase approval.
-- Full-funnel B2B marketing: Medical congress exhibitions, product launch and press events, white papers, webinars, press releases, and website lead generation.
-- Salesforce rollout (PMO): At Kawasaki Heavy Industries, I led the PMO that moved the robotics sales pipeline from a 30-year-old legacy system to Salesforce. I won over a resistant sales team and built the processes to make the new system stick.
-- Healthcare research in emerging markets: At PwC, I researched local healthcare systems and interviewed overseas hospitals for a healthcare new-business feasibility study, and supported government-funded projects in Bangladesh.
+- Pharmaceutical marketing: Project Manager at Medii, a Tokyo-based health-tech company. Plans disease-specific marketing programs with pharmaceutical companies to extend specialist expertise to primary care physicians.
+- US–Japan telehealth partnership: Japan-side counterpart to Teladoc Health, Inc. at WeMex. Responsible for business planning and KPI design, localization of product and clinical case materials, engagement of US physicians as speakers at Japanese seminars, and alliances with medical device manufacturers.
+- Hospital adoption: Designed a telehealth trial with a university hospital, including evaluation criteria and target outcomes, and supported the process through to institutional purchase approval.
+- Healthcare marketing: Medical congress exhibitions, product launches and media events, white papers, webinars, press releases, and digital lead generation.
+- Sales transformation: PMO for the migration of a 30-year-old legacy sales system to Salesforce at Kawasaki Heavy Industries, including stakeholder alignment and adoption design.
+- Consulting and research: At PwC, healthcare feasibility research covering local health systems and interviews with overseas medical institutions, research engagements in Bangladesh for Japanese government ministries, and advisory to a public-private program supporting base-of-the-pyramid (BOP) businesses in emerging markets.
 
-HOW I CAN HELP
+ENGAGEMENT AREAS
 
-- Japan market entry strategy and go-to-market planning
-- Market research and competitor analysis for Japanese healthcare
-- Physician and KOL marketing, medical congresses, webinars, and content
-- Business development and partnership building with Japanese companies
-- Project management and PMO, including Salesforce and CRM implementation
-- Serving as your Japan-side liaison between HQ and local partners
+- Japan market assessment and entry strategy
+- Market research, competitive landscape analysis, and stakeholder interviews (conducted in Japanese, reported in English)
+- Review of go-to-market plans and physician/KOL engagement strategy
+- Partner and distributor landscape mapping
+- Review of Japan-facing business plans and marketing materials
+- Advisory on CRM and Salesforce adoption in sales organizations
 
-WHY WORK WITH ME
+ENGAGEMENT FORMAT
 
-I understand how Japan's healthcare stakeholders work, including physicians, KOLs, hospitals, pharmaceutical companies, and distributors, and I can explain it clearly to teams outside Japan. I don't stop at strategy. I roll up my sleeves and execute.
+Available for short-term engagements with a clearly defined scope and deliverables, such as advisory sessions, research projects, and document reviews.
 
-Healthcare is also personal for me. Since 2019 I have volunteered with a nonprofit that promotes preventive healthcare, and in 2021 I founded "YOBO Chiebukuro," a Japanese media site about preventive health.
+Outside of client work, a volunteer with a preventive healthcare nonprofit since 2019 and founder of "YOBO Chiebukuro," a Japanese media site on preventive health (2021).
 
-Tell me about your goals for Japan, and let's discuss how I can help.
+Please feel free to reach out with a brief outline of your objectives, scope, and timeline.
 
 > **日本語訳**
 >
-> 日本でヘルスケア・製薬・メドテック事業の立ち上げや拡大を計画していませんか？海外企業の日本戦略を成果につなげるお手伝いをします。市場調査やGTM計画から、医師向けマーケティング、営業の実行まで対応します。
+> 日本市場への参入や事業拡大を検討する海外のヘルスケア・製薬・メドテック企業に向けて、市場評価、GTM戦略、医師エンゲージメントに関するアドバイザリーを、範囲を絞ったプロジェクト単位で提供しています。
 >
-> ヘルスケア、テクノロジー、コンサルティングの分野で、日本で15年の経験があります。日英バイリンガルで、米国SUNY GeneseoでBBAを取得しているので、本社と日本側の関係者の間をスムーズにつなげます。
+> 日英バイリンガル。経営コンサルティング（PwC）、ヘルスケアIT、製薬マーケティング、グローバル製造業で15年の経験。米国ニューヨーク州立大学ジェネシオ校でBBAを取得。
 >
-> **実績**
-> - 米国の遠隔医療大手の日本パートナー：ウィーメックスでTeladoc Healthの日本側窓口を担当。事業計画とKPIの策定、米国の製品・事例情報を日本市場向けの資料に展開、日本のセミナーに登壇する米国医師の招へい、医療機器メーカーとの営業提携を行いました。
-> - 製薬マーケティング：東京のヘルステック企業MediiのPMとして、製薬企業と疾患領域別のマーケティング施策を企画・推進。専門医の知見を主治医に届けています。
-> - 病院営業（トライアルから購入まで）：大学病院と遠隔医療のトライアルを設計（検証項目とアウトカムデータを含む）し、院内決裁まで支援しました。
-> - B2Bマーケティング全般：学会出展、製品発表会・記者発表、ホワイトペーパー、ウェビナー、プレスリリース、Webからのリード獲得。
-> - Salesforce導入のPMO：川崎重工業で、ロボット事業の営業パイプラインを30年使われてきた旧システムからSalesforceへ移行するPMOを担当。反発する営業部門の理解を得て、定着の仕組みを作りました。
-> - 新興国のヘルスケア調査：PwCで医療分野の新規事業の事前調査として、現地の保健医療制度の調査と海外医療機関へのヒアリングを実施。バングラデシュでの政府案件も支援しました。
+> **関連する経験**
+> - 製薬マーケティング：東京のヘルステック企業Mediiのプロジェクトマネージャー。製薬企業と疾患領域別のマーケティング施策を企画し、専門医の知見を主治医に届けている。
+> - 日米の遠隔医療提携：ウィーメックスでTeladoc Healthの日本側カウンターパート。事業計画とKPI設計、製品・臨床事例資料のローカライズ、日本のセミナーに登壇する米国医師の招へい、医療機器メーカーとの提携を担当。
+> - 病院への導入：大学病院と遠隔医療のトライアルを設計（評価基準と目標アウトカムを含む）し、院内の購入決裁まで支援。
+> - ヘルスケアマーケティング：学会出展、製品発表会・メディアイベント、ホワイトペーパー、ウェビナー、プレスリリース、デジタルでのリード獲得。
+> - 営業改革：川崎重工業で、30年使われてきた旧営業システムからSalesforceへの移行のPMOを担当。関係者の合意形成と定着の仕組みを設計。
+> - コンサルティングと調査：PwCで、医療分野の事前調査（現地の保健医療制度、海外医療機関へのヒアリング）、日本の省庁によるバングラデシュでの調査案件、新興国でのBOPビジネスを支援する官民連携制度へのアドバイザリーを担当。
 >
-> **支援できること**
-> - 日本市場参入戦略とGTM計画
-> - 日本のヘルスケア市場の調査と競合分析
-> - 医師・KOL向けマーケティング、学会、ウェビナー、コンテンツ
-> - 日本企業との事業開発・提携構築
-> - プロジェクトマネジメントとPMO（Salesforce・CRM導入を含む）
-> - 本社と日本のパートナーをつなぐ日本側窓口
+> **対応領域**
+> - 日本市場の評価と参入戦略
+> - 市場調査、競合分析、関係者インタビュー（日本語で実施し、英語で報告）
+> - GTM計画と医師・KOLエンゲージメント戦略のレビュー
+> - パートナー・代理店候補の整理
+> - 日本向け事業計画やマーケティング資料のレビュー
+> - 営業組織でのCRM・Salesforce定着に関するアドバイザリー
 >
-> **選ばれる理由**
-> 医師、KOL、病院、製薬企業、代理店など、日本の医療業界の関係者がどう動くかを理解しており、海外のチームにわかりやすく説明できます。戦略で終わらず、自ら手を動かして実行します。
+> **関与の形**
+> 範囲と成果物が明確な短期案件（アドバイザリーセッション、調査プロジェクト、資料レビューなど）に対応します。
 >
-> ヘルスケアは私にとって個人的にも大切な分野です。2019年から予防医療を広める一般社団法人で活動し、2021年には予防医療メディア「YOBO知恵袋」を立ち上げました。
+> 本業以外では、2019年から予防医療を広める一般社団法人で活動し、2021年に予防医療メディア「YOBO知恵袋」を立ち上げました。
 >
-> 日本での目標をお聞かせください。どのようにお役に立てるか、一緒に考えましょう。
+> 目的、範囲、スケジュールの概要をお知らせいただければ、お気軽にご相談ください。
 
 **メモ**
 
-- Upworkの検索結果には冒頭の約200文字しか表示されないので、最初の2文にクライアントの悩みと提供価値を入れています。
-- ご家族やご自身の病気については書いていません。「ヘルスケアは個人的にも大切」という一文にとどめています。もっと踏み込みたければ調整します。
+- Upworkの検索結果には冒頭の約200文字しか表示されないので、最初の1文に対象クライアント、支援内容、関与の形（プロジェクト単位）をまとめました。
+- 主語を省いた書き方は、コンサルティングファームや役員のプロフィールでよく使われる文体です。「I」は一度も使っていません。
+- 「ENGAGEMENT FORMAT」で短期・スポットの案件であることを明記しています。継続的な関与を求めるクライアントを最初から絞り込む効果があります。
+- ご家族やご自身の病気については書いていません。
 - Teladoc HealthやMediiの名前を出してよいか、守秘義務の点で念のため確認してください。製薬クライアントの名前は出していません。
-- 数字の成果がわかったら、各項目に入れるとさらに強くなります（例：「◯件の商談を創出」「◯名の営業担当が利用」）。
+- 数字の成果がわかったら、各項目に入れるとさらに強くなります。
 
 ---
 
 ## 3. Skills（最大15個）
 
-Upworkの入力欄で候補から選ぶ形式です。表記が少し違う場合は、一番近いものを選んでください。
+Upworkの入力欄で候補から選ぶ形式です。表記が少し違う場合は、一番近いものを選んでください。v1からアドバイザリーに合う項目へ入れ替えています。
 
 1. Market Entry Strategy
 2. Go-to-Market Strategy
-3. Business Development
+3. Business Consulting
 4. Healthcare
 5. Pharmaceutical Industry
 6. Medical Device
-7. Project Management
-8. Market Research
-9. B2B Marketing
+7. Market Research
+8. Competitive Analysis
+9. Business Planning
 10. Marketing Strategy
-11. Business Planning
-12. Salesforce CRM
-13. Lead Generation
-14. Event Management
+11. B2B Marketing
+12. Business Development
+13. Project Management
+14. Salesforce CRM
 15. Japanese（言語スキルとして）
+
+> v1から外したもの：Event Management、Lead Generation（どちらも実行作業の案件を呼び込みやすいため）
 
 ---
 
 ## 4. Specialized Profiles（専門プロフィール）
 
-メインのプロフィールとは別に、専門分野ごとのプロフィールを作れます。クライアントは案件に合ったプロフィールを見るので、以下の2つを作っておくのがおすすめです。
+メインのプロフィールとは別に、専門分野ごとのプロフィールを作れます。クライアントは案件に合ったプロフィールを見ます。
 
 ### 4-1. Japan Healthcare Market Research
 
@@ -127,67 +136,73 @@ Upworkの入力欄で候補から選ぶ形式です。表記が少し違う場�
 
 **Overview**
 
-Need reliable insight into Japan's healthcare market before you invest? I conduct market research, competitor analysis, and stakeholder interviews to help you make confident decisions about Japan.
+Market research and feasibility studies for companies assessing opportunities in Japan's healthcare, pharmaceutical, and MedTech sectors.
 
-At PwC, I ran healthcare feasibility research, including studying local healthcare systems and interviewing hospitals, and supported government-funded research projects in Bangladesh. Since then, I have spent more than 8 years in Japanese health-tech and industrial companies, working directly with physicians, hospitals, and pharmaceutical companies.
+Background includes healthcare feasibility research at PwC, covering analysis of local health systems and interviews with overseas medical institutions, as well as government-commissioned research in Bangladesh. This is complemented by more than eight years in Japanese health-tech and industrial companies working directly with physicians, hospitals, and pharmaceutical companies.
 
-What I deliver:
-- Market sizing and landscape reports on Japanese healthcare, pharma, and MedTech
-- Competitor and partner mapping
-- Interviews with Japanese physicians, hospitals, and industry stakeholders, in Japanese, with reports in English
-- Clear recommendations your leadership team can act on
+Typical deliverables:
+- Market overview and landscape reports on Japanese healthcare, pharma, and MedTech
+- Competitor and potential partner mapping
+- Interviews with Japanese physicians, hospitals, and industry stakeholders, conducted in Japanese with findings reported in English
+- Executive summaries with clear, actionable recommendations
 
-> **日本語訳**：日本のヘルスケア市場に投資する前に、確かな情報が必要ではありませんか？市場調査、競合分析、関係者インタビューで、日本に関する判断を後押しします。PwCでは、医療分野の事前調査（現地の保健医療制度の調査や病院へのヒアリング）を担当し、バングラデシュでの政府案件の調査も支援しました。その後8年以上、日本のヘルステック企業や製造業で、医師、病院、製薬企業と直接仕事をしてきました。提供内容：日本のヘルスケア・製薬・メドテックの市場規模と業界構造のレポート、競合とパートナー候補の整理、日本の医師や病院などへの日本語インタビュー（英語でレポート）、経営陣がすぐ動ける明確な提言。
+Engagements are project-based, with scope, timeline, and deliverables agreed in advance.
 
-### 4-2. Project Manager / PMO
+> **日本語訳**：日本のヘルスケア・製薬・メドテック分野で事業機会を検討する企業向けの市場調査と事前調査。PwCでの医療分野の事前調査（現地の保健医療制度の分析、海外医療機関へのヒアリング）や、バングラデシュでの政府委託調査の経験に加え、日本のヘルステック企業や製造業で8年以上、医師、病院、製薬企業と直接仕事をしてきました。主な成果物：日本のヘルスケア・製薬・メドテックの市場概要と業界構造のレポート、競合とパートナー候補の整理、日本の医師や病院などへの日本語インタビュー（英語で報告）、実行につながる提言をまとめたエグゼクティブサマリー。案件はプロジェクト単位で、範囲、期間、成果物を事前に合意して進めます。
 
-**Title**：Bilingual Project Manager & PMO | Salesforce and Business Projects
+### 4-2. Healthcare Go-to-Market Advisory
+
+**Title**：Healthcare Go-to-Market & Physician Marketing Advisory (Japan)
 
 **Overview**
 
-I'm a bilingual (Japanese and English) project manager who keeps cross-functional projects on track and makes sure change actually sticks.
+Advisory on go-to-market strategy and physician engagement for healthcare, pharmaceutical, and MedTech companies in the Japanese market.
 
-At Kawasaki Heavy Industries, I led the PMO that moved the robotics sales pipeline from a 30-year-old legacy system to Salesforce. That meant defining requirements, simplifying data entry for sales, winning over a resistant team, and building the processes for adoption. Today, as a Project Manager at a Tokyo health-tech startup, I run projects with pharmaceutical clients from planning to delivery.
+Experience spans disease-specific marketing programs with pharmaceutical companies at Medii, the Japan launch of a US telehealth service in partnership with Teladoc Health, and hospital adoption from trial design through to institutional purchase approval. Marketing experience includes medical congresses, product launches, webinars, white papers, and digital lead generation.
 
-What I offer:
-- Project planning, scheduling, and progress management
-- PMO support for CRM and Salesforce rollouts, including requirements and user adoption
-- KGI/KPI design and reporting
-- Coordination between Japanese and overseas teams
+Typical engagements:
+- Review of Japan go-to-market plans and positioning
+- Physician and KOL engagement strategy
+- Assessment of hospital adoption pathways and trial design
+- Review and localization advice for Japan-facing marketing materials
 
-> **日本語訳**：日英バイリンガルのプロジェクトマネージャーとして、部門をまたぐプロジェクトを計画どおりに進め、変化を組織に定着させます。川崎重工業では、ロボット事業の営業パイプラインを30年使われてきた旧システムからSalesforceへ移行するPMOを担当しました。要件定義、営業の入力業務の簡素化、反発するチームの説得、定着の仕組み作りを行いました。現在は東京のヘルステック企業のPMとして、製薬クライアントとのプロジェクトを企画から納品まで推進しています。提供内容：プロジェクトの計画・スケジュール・進捗管理、CRM・Salesforce導入のPMO（要件定義と定着支援を含む）、KGI・KPIの設計とレポーティング、日本と海外のチーム間の調整。
+Engagements are advisory in nature and structured around a defined scope and deliverables.
+
+> **日本語訳**：日本市場のヘルスケア・製薬・メドテック企業向けに、GTM戦略と医師エンゲージメントに関するアドバイザリーを提供します。Mediiでの製薬企業との疾患領域別マーケティング施策、Teladoc Healthと連携した米国遠隔医療サービスの日本展開、トライアル設計から院内決裁までの病院への導入の経験があります。マーケティングでは、学会、製品発表会、ウェビナー、ホワイトペーパー、デジタルでのリード獲得を経験しています。主な案件：日本向けGTM計画とポジショニングのレビュー、医師・KOLエンゲージメント戦略、病院への導入プロセスとトライアル設計の評価、日本向けマーケティング資料のレビューとローカライズに関する助言。案件はアドバイザリーとして、範囲と成果物を定めて進めます。
+
+> **メモ**：Mediiでの製薬マーケティングと重なる領域です。現職の就業規則で、競合する副業が制限されていないか確認してください。
 
 ---
 
 ## 5. Employment History（職歴）
 
-Upworkの入力欄に合わせた形式です。
+Upworkの入力欄に合わせた形式です。v1と同じく、動詞で始める履歴書の文体です。
 
 **Project Manager** | Medii, Inc. | Tokyo | Feb 2025 – Present
-- Plan and lead disease-specific marketing programs with pharmaceutical companies
-- Bring specialist knowledge to primary care physicians through "Medii E-Consult," an online specialist consultation platform, to support early diagnosis of rare and hard-to-diagnose diseases
+- Plan and manage disease-specific marketing programs with pharmaceutical companies
+- Extend specialist expertise to primary care physicians through "Medii E-Consult," an online specialist consultation platform supporting early diagnosis of rare and hard-to-diagnose diseases
 
 **Business Planning & Promotion, Healthcare IT Division** | WeMex Co., Ltd. | Tokyo | Nov 2021 – Jan 2025
-- Main Japan-side contact for Teladoc Health, Inc. (US): shared product and case information and recruited US physicians to speak at Japanese seminars
+- Served as Japan-side counterpart to Teladoc Health, Inc. (US), coordinating product and clinical case information and securing US physicians as speakers for Japanese seminars
 - Developed the telehealth business plan and managed KGIs and KPIs
-- Defined requirements for Salesforce to track KPI data
-- Built sales partnerships with medical device manufacturers
-- Planned and ran medical congress exhibitions, product launch and media events, webinars, white papers, press releases, and website lead generation
-- Ran new-business and account sales, including a telehealth trial at a university hospital through to purchase approval
+- Defined Salesforce requirements for KPI data collection
+- Established sales alliances with medical device manufacturers
+- Led medical congress exhibitions, product launches and media events, webinars, white papers, press releases, and digital lead generation
+- Managed a telehealth trial at a university hospital through to institutional purchase approval
 
 **Sales Planning, Robot Division** | Kawasaki Heavy Industries, Ltd. | Tokyo | Jul 2017 – Oct 2021
-- PMO and system administrator for the move from a 30-year-old legacy sales system to Salesforce (2019–2020)
-- Project manager for websites, catalogs, exhibition brochures, and commemorative publications
-- Led planning and on-site operations for press conferences, distributor meetings, and anniversary ceremonies
+- PMO and system administrator for the migration from a 30-year-old legacy sales system to Salesforce (2019–2020)
+- Managed the planning and production of the website, catalogs, exhibition brochures, and commemorative publications
+- Directed planning and on-site operations for press conferences, distributor meetings, and anniversary ceremonies
 
 **Associate, Sustainability Team** | PwC Aarata LLC | Tokyo | Jan 2015 – Jun 2017
-- Ran the secretariat for a public-private program that supported Japanese companies launching base-of-the-pyramid (BOP) businesses in emerging markets
-- Conducted research projects in Bangladesh for Japanese government ministries
-- Conducted a healthcare feasibility study, including research on local healthcare systems and interviews with overseas hospitals
+- Supported the secretariat of a public-private program assisting Japanese companies in launching base-of-the-pyramid (BOP) businesses in emerging markets, with a focus on program strategy
+- Conducted research engagements in Bangladesh for Japanese government ministries
+- Conducted healthcare feasibility research, including analysis of local health systems and interviews with overseas medical institutions
 
 **Corporate Sales** | SoftBank Corp. | Tokyo | Apr 2011 – 【要確認：May 2014 または Dec 2014】
-- Sold international data services, including global networks and overseas data centers, to large Japanese and multinational companies
-- Split time evenly between winning new accounts and growing existing ones
+- Sold international data services, including global networks and overseas data centers, to large Japanese and multinational corporations
+- Managed an even split of new business development and existing account growth
 
 ---
 
@@ -204,62 +219,62 @@ Upworkの入力欄に合わせた形式です。
 - Japanese: Native or Bilingual
 - English: Fluent
 
-> Upworkの英語レベルは Basic / Conversational / Fluent / Native or Bilingual の4段階です。米国の大学を卒業しているので、「Fluent」が妥当です。
-
 ---
 
 ## 8. Portfolio（実績）
 
-1件ごとにタイトル、説明、画像（任意）を登録します。守秘義務に触れない範囲で書いています。画像は、Canvaなどで作ったシンプルな図解（「課題 → 対応 → 結果」など）で十分です。
+「Role / Context / Scope / Outcome」の形式にそろえ、「I」を使わない文体にしました。守秘義務に触れない範囲で書いています。
 
-### ① Launching a US Telehealth Service in Japan
-**Role**: Japan-side liaison and business planner
-**Challenge**: Adapt a US telehealth service to Japan's healthcare system and build demand among Japanese hospitals.
-**What I did**: Built the business plan and KPIs, turned US product and case information into materials for the Japanese market, recruited US physicians to speak at Japanese seminars, and set up sales partnerships with medical device companies.
-**Result**: 【数字があれば追加：導入施設数、セミナー参加者数など】
+### ① Japan Launch of a US Telehealth Service
+**Role**: Japan-side counterpart and business planner
+**Context**: Introduction of a US telehealth service into Japan's healthcare system and hospital market.
+**Scope**: Business planning and KPI design, localization of product and clinical case materials, engagement of US physicians as speakers at Japanese seminars, and alliances with medical device manufacturers.
+**Outcome**: 【数字があれば追加：導入施設数、セミナー参加者数など】
 
-### ② University Hospital Telehealth Trial to Purchase
-**Role**: Account manager
-**Challenge**: Move a university hospital from interest to purchase, with multiple departments and a formal approval process.
-**What I did**: Worked with the hospital's medical DX team to create a telehealth plan, held briefings for several departments, designed the trial's metrics and target outcomes, collected outcome data, and supported the client through internal approval.
-**Result**: 【要確認：購入につながったか】
+### ② University Hospital Telehealth Adoption
+**Role**: Account lead
+**Context**: A university hospital evaluating telehealth across multiple clinical departments, subject to a formal approval process.
+**Scope**: Telehealth utilization planning with the hospital's medical DX team, briefings for clinical departments, trial design with evaluation criteria and target outcomes, outcome data analysis, and support through the institutional approval process.
+**Outcome**: 【要確認：購入につながったか】
 
-### ③ Salesforce Rollout Replacing a 30-Year-Old Legacy System
+### ③ Salesforce Migration from a 30-Year-Old Legacy System
 **Role**: PMO and system administrator
-**Challenge**: A global manufacturer's robotics division relied on an in-house system customized over 30 years. Data entry was heavy, and the sales team resisted change.
-**What I did**: Moved the pipeline process, from lead to order, into Salesforce. I simplified data entry, won the sales team's buy-in, and built the processes for adoption.
-**Result**: 【数字があれば追加：ユーザー数、入力時間の削減など】
+**Context**: The robotics division of a global manufacturer relied on an in-house system customized over 30 years, with a heavy data-entry burden and strong resistance to change.
+**Scope**: Migration of the pipeline process, from lead to order, into Salesforce, along with simplification of data entry, stakeholder alignment with the sales organization, and adoption design.
+**Outcome**: 【数字があれば追加：ユーザー数、入力時間の削減など】
 
-### ④ Medical Congress & Launch Event Program
-**Role**: Project manager and on-site operations lead
-**What I did**: Ran medical congress booths from planning to follow-up meetings. Led product launches, press events, distributor meetings, and anniversary ceremonies, including guest flow and staff roles on the day.
-**Result**: 【数字があれば追加：名刺獲得数、来場者数など】
+### ④ Medical Congress and Corporate Event Program
+**Role**: Project lead and on-site operations lead
+**Scope**: End-to-end management of medical congress exhibitions, from planning to post-event follow-up, along with product launches, press events, distributor meetings, and anniversary ceremonies.
+**Outcome**: 【数字があれば追加：名刺獲得数、来場者数など】
 
 ### ⑤ Healthcare Feasibility Study in an Emerging Market
 **Role**: Consultant (PwC)
-**What I did**: Researched the local healthcare system and interviewed overseas medical institutions to assess a new healthcare business.
+**Scope**: Analysis of the local healthcare system and interviews with overseas medical institutions to assess the viability of a new healthcare business.
 
-### ⑥ Founder of "YOBO Chiebukuro," a Preventive Health Media Site
+### ⑥ "YOBO Chiebukuro," a Preventive Health Media Site
 **Role**: Founder
-**What I did**: Launched a Japanese media site in 2021 to share practical knowledge about preventive healthcare, alongside volunteer work with a preventive health nonprofit since 2019.
-**Result**: 【サイトのURLや記事数があれば追加】
+**Scope**: Launched in 2021 to share practical knowledge on preventive healthcare with a Japanese audience, alongside volunteer work with a preventive healthcare nonprofit since 2019.
+**Outcome**: 【サイトのURLや記事数があれば追加】
 
 ---
 
-## 9. Hourly Rate（時給）
+## 9. 料金
 
-- **開始時の目安：$50〜60/時間**
-- 評価（レビュー）が3〜5件ついたら、**$75〜90/時間**へ引き上げ
+- **時給の目安：開始時は$60〜70、レビューが3〜5件ついたら$85〜100**
+- 調査やレビューの案件は、時給よりも**固定価格**（Fixed-price）で受けるほうが、副業として稼働時間を管理しやすくなります。
 
-> 日本市場参入やヘルスケア領域のコンサルタントは、Upworkでは比較的高めの価格帯です。ただ、Upworkでの実績がゼロのうちは、最初の数件でレビューを得ることを優先して少し抑えめに始め、段階的に上げるのが一般的な戦略です。上の金額は目安なので、応募する前に、同じ分野で活動しているフリーランサーの時給をUpworkで確認してください。
+> スポットのアドバイザリーは、実行作業よりも単価を高めに設定しやすい分野です。ただ、Upworkでの実績がゼロのうちは、最初の数件でレビューを得ることを優先し、段階的に上げるのが一般的です。上の金額は目安なので、応募する前に、同じ分野のフリーランサーの料金をUpworkで確認してください。
 
 ---
 
 ## 10. 次にやること
 
 1. 【要確認】の箇所を確認する（ソフトバンクの退職時期、社名を出してよいか、数字の成果）
-2. プロフィール写真を用意する（明るい背景で、顔がはっきり写ったビジネス向けの写真）
-3. 現職が副業を認めているか、競合する仕事に制限がないかを確認する
-4. **Project Catalog**（決まった内容と価格のパッケージ商品）を1〜2個作る。例：「日本のヘルスケア市場の簡易調査レポート」を固定価格で
+2. 現職の就業規則で、副業と競合する仕事の制限を確認する（特に製薬マーケティング関連）
+3. プロフィール写真を用意する（明るい背景で、顔がはっきり写ったビジネス向けの写真）
+4. **Project Catalog**（内容と価格を決めたパッケージ商品）を1〜2個作る。スポット案件と相性が良い仕組みです。例：
+   - 「Japan Healthcare Market Snapshot」：日本のヘルスケア市場の簡易調査レポート（固定価格）
+   - 「Japan Go-to-Market Plan Review」：GTM計画のレビューとフィードバック（固定価格）
 5. LinkedInの「Corpotate Sales」の誤字を直す
 6. LinkedInのプロフィールも、Upworkと同じ打ち出し方にそろえる
