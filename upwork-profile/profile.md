@@ -34,7 +34,7 @@ Japan Market Entry Advisor | Healthcare, Pharma & MedTech
 
 Advisory support for international healthcare, pharmaceutical, and MedTech companies evaluating or expanding their presence in Japan, covering market assessment, go-to-market strategy, and physician engagement, through focused, project-based engagements.
 
-Bilingual (Japanese/English) professional with 15 years of experience across management consulting (PwC), healthcare IT, pharmaceutical marketing, and a global manufacturer. BBA, State University of New York at Geneseo.
+Bilingual (Japanese/English) professional with 15 years of experience across management consulting (PwC), healthcare IT, pharmaceutical marketing, global enterprise sales, and a global manufacturer. Business Administration degree, State University of New York at Geneseo. TOEIC 975.
 
 RELEVANT EXPERIENCE
 
@@ -44,6 +44,7 @@ RELEVANT EXPERIENCE
 - Healthcare marketing: Medical congress exhibitions, product launches and media events, white papers, webinars, press releases, and digital lead generation.
 - Sales transformation: PMO for the migration of a 30-year-old legacy sales system to Salesforce at Kawasaki Heavy Industries, including stakeholder alignment and adoption design.
 - Consulting and research: At PwC, healthcare feasibility research covering local health systems and interviews with overseas medical institutions, research engagements in Bangladesh for Japanese government ministries, and advisory to a public-private program supporting base-of-the-pyramid (BOP) businesses in emerging markets.
+- Enterprise sales: At SoftBank, won a global WAN RFP contributing JPY 214 million in revenue and received the FY2012 Top Enterprise Sales Award.
 
 ENGAGEMENT AREAS
 
@@ -66,7 +67,7 @@ Please feel free to reach out with a brief outline of your objectives, scope, an
 >
 > 日本市場への参入や事業拡大を検討する海外のヘルスケア・製薬・メドテック企業に向けて、市場評価、GTM戦略、医師エンゲージメントに関するアドバイザリーを、範囲を絞ったプロジェクト単位で提供しています。
 >
-> 日英バイリンガル。経営コンサルティング（PwC）、ヘルスケアIT、製薬マーケティング、グローバル製造業で15年の経験。米国ニューヨーク州立大学ジェネシオ校でBBAを取得。
+> 日英バイリンガル。経営コンサルティング（PwC）、ヘルスケアIT、製薬マーケティング、グローバルな法人営業、グローバル製造業で15年の経験。米国ニューヨーク州立大学ジェネシオ校で経営学を専攻。TOEIC 975。
 >
 > **関連する経験**
 > - 製薬マーケティング：東京のヘルステック企業Mediiのプロジェクトマネージャー。製薬企業と疾患領域別のマーケティング施策を企画し、専門医の知見を主治医に届けている。
@@ -75,6 +76,7 @@ Please feel free to reach out with a brief outline of your objectives, scope, an
 > - ヘルスケアマーケティング：学会出展、製品発表会・メディアイベント、ホワイトペーパー、ウェビナー、プレスリリース、デジタルでのリード獲得。
 > - 営業改革：川崎重工業で、30年使われてきた旧営業システムからSalesforceへの移行のPMOを担当。関係者の合意形成と定着の仕組みを設計。
 > - コンサルティングと調査：PwCで、医療分野の事前調査（現地の保健医療制度、海外医療機関へのヒアリング）、日本の省庁によるバングラデシュでの調査案件、新興国でのBOPビジネスを支援する官民連携制度へのアドバイザリーを担当。
+> - 法人営業：ソフトバンクで、グローバルWANのRFPを受注して2億1,400万円の売上に貢献し、FY2012 Top Enterprise Sales Awardを受賞。
 >
 > **対応領域**
 > - 日本市場の評価と参入戦略
@@ -200,15 +202,21 @@ Upworkの入力欄に合わせた形式です。v1と同じく、動詞で始め
 - Conducted research engagements in Bangladesh for Japanese government ministries
 - Conducted healthcare feasibility research, including analysis of local health systems and interviews with overseas medical institutions
 
-**Corporate Sales** | SoftBank Corp. | Tokyo | Apr 2011 – 【要確認：May 2014 または Dec 2014】
-- Sold international data services, including global networks and overseas data centers, to large Japanese and multinational corporations
-- Managed an even split of new business development and existing account growth
+**Global Sales Representative** | SoftBank Corp. (formerly SoftBank Telecom Corp.) | Tokyo | Apr 2011 – 【要確認：May 2014 または Dec 2014】
+- Sold global data network services, including global MPLS, Internet VPN, and overseas data centers, to large Japanese and multinational corporations, split evenly between new business and account growth; delivered proposals in Japanese and English
+- Won a global WAN RFP contributing JPY 214 million in revenue and received the FY2012 Top Enterprise Sales Award
+- Received the FY2012 Top Sales Award for Enterprise Sales Division 1 for a Cisco TelePresence implementation at client sites in the US and UK
+- Closed the department's fourth-largest global MPLS deal by revenue in 2012, and recorded the highest landline sales in the 2011 new-hire cohort
+
+> 役職名は2014年版レジュメの「Global Sales Representative」に変更しました（入社後4か月間はAccount Sales）。
 
 ---
 
 ## 6. Education（学歴）
 
-**State University of New York at Geneseo** | Bachelor of Business Administration (BBA) | 2006 – 2010
+**State University of New York at Geneseo** | 【要確認：Bachelor of Science in Business Administration または BBA】, Minor in International Relations | 2006 – 2010
+
+> 2014年版レジュメでは「Bachelor of Science, Business Administration」、LinkedInでは「BBA」になっています。卒業証書の正式名称に合わせてください。
 
 > Upworkでは年のみの入力なので、在学期間の月の食い違いは問題になりません。
 
@@ -217,7 +225,11 @@ Upworkの入力欄に合わせた形式です。v1と同じく、動詞で始め
 ## 7. Languages（言語）
 
 - Japanese: Native or Bilingual
-- English: Fluent
+- English: Fluent（TOEIC 975, 2013）
+
+**Certifications**：CompTIA Network+（2013取得）
+
+> Upworkの言語欄にはスコアを書く場所がないため、TOEIC 975はOverviewに入れています。CompTIA Network+は有効期限（3年）が切れている可能性があるので、登録する場合は取得年を明記してください。
 
 ---
 
@@ -270,7 +282,7 @@ Upworkの入力欄に合わせた形式です。v1と同じく、動詞で始め
 
 ## 10. 次にやること
 
-1. 【要確認】の箇所を確認する（ソフトバンクの退職時期、社名を出してよいか、数字の成果）
+1. 【要確認】の箇所を確認する（ソフトバンクの退職時期、学位の正式名称、社名を出してよいか、数字の成果）
 2. 現職の就業規則で、副業と競合する仕事の制限を確認する（特に製薬マーケティング関連）
 3. プロフィール写真を用意する（明るい背景で、顔がはっきり写ったビジネス向けの写真）
 4. **Project Catalog**（内容と価格を決めたパッケージ商品）を1〜2個作る。スポット案件と相性が良い仕組みです。例：
