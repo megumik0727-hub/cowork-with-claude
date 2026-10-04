@@ -99,3 +99,62 @@ if __name__ == "__main__":
             t = Image.open(os.path.join(OUT, n + ".png"))
             prev.alpha_composite(t, (20 + c * 180, 20 + r * 180))
     prev.save(os.path.join(OUT, "_preview.png"))
+
+
+# ---- ひらがなセット（頭・しっぽ＋38文字＝40個） ----
+HIRAGANA = "あいうえおかきくさしすたつてとなにねのはまみむめやよりれろんがごだでばっー♡"
+INK = [(232, 106, 125, 255), (90, 140, 210, 255), (110, 170, 110, 255),
+       (160, 120, 200, 255), (240, 150, 70, 255)]
+
+
+def heart(d, cx, cy, r, fill):
+    d.ellipse([cx - r, cy - r, cx, cy], fill=fill)
+    d.ellipse([cx, cy - r, cx + r, cy], fill=fill)
+    d.polygon([(cx - r + S, cy - r // 3), (cx + r - S, cy - r // 3), (cx, cy + r)], fill=fill)
+
+
+def belly_hira(ch, color):
+    im = canvas(); d = ImageDraw.Draw(im)
+    band(d, 0, W)
+    d.ellipse(s(48, 58, 132, 142), fill=PATCH)
+    if ch == "♡":
+        heart(d, W // 2, 96 * S, 26 * S, INK[0])
+    else:
+        f = ImageFont.truetype(JA, 62 * S)
+        dy = {"っ": 10, "ー": 0}.get(ch, 0) * S
+        d.text((W // 2, 100 * S + dy), ch, font=f, fill=color, anchor="mm",
+               stroke_width=3 * S, stroke_fill=color)
+    return im
+
+
+def build_hiragana_set():
+    out = os.path.join(os.path.dirname(__file__), "hiragana_set")
+    os.makedirs(out, exist_ok=True)
+    tiles = {"head": head(), "tail": tail()}
+    for i, ch in enumerate(HIRAGANA):
+        tiles[ch] = belly_hira(ch, INK[i % len(INK)])
+    order = ["head", "tail"] + list(HIRAGANA)   # 001=頭, 002=しっぽ, 003以降=文字
+    small = {}
+    for n, key in enumerate(order, 1):
+        small[key] = tiles[key].resize((180, 180), Image.LANCZOS)
+        small[key].save(os.path.join(out, f"{n:03d}.png"))
+    tab = Image.new("RGBA", (96, 74), (0, 0, 0, 0))
+    tab.alpha_composite(tiles["head"].resize((74, 74), Image.LANCZOS), (11, 0))
+    tab.save(os.path.join(out, "tab.png"))
+    # フレーズの見え方プレビュー
+    phrases = ["ありがとう", "だいすき♡", "さみしい", "まってて", "あとで", "いえいえ", "おつかれ", "いってきます"]
+    T = 90
+    width = max(len(p) for p in phrases) + 2
+    prev = Image.new("RGBA", (T * width + 30, T * len(phrases) + 30), (222, 228, 238, 255))
+    for r, p in enumerate(phrases):
+        for c, key in enumerate(["head"] + list(p) + ["tail"]):
+            prev.alpha_composite(small[key].resize((T, T), Image.LANCZOS), (15 + c * T, 15 + r * T))
+    prev.save(os.path.join(out, "_preview_phrases.png"))
+    sheet = Image.new("RGBA", (T * 8 + 30, T * 5 + 30), (255, 255, 255, 255))
+    for n, key in enumerate(order):
+        sheet.alpha_composite(small[key].resize((T, T), Image.LANCZOS), (15 + n % 8 * T, 15 + n // 8 * T))
+    sheet.save(os.path.join(out, "_preview_all40.png"))
+
+
+if __name__ == "__main__":
+    build_hiragana_set()
