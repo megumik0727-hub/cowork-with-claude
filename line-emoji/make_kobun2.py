@@ -258,3 +258,96 @@ def main_v3():
 
 if __name__ == "__main__":
     main_v3()
+
+
+# ---- v4: メッセージごとに書体を変える（色は黒） ----
+OUT4 = os.path.join(os.path.dirname(os.path.abspath(__file__)), "kobun_stickers_v4")
+BLACK = (25, 25, 25, 255)
+_maps = {}
+
+
+def charmap_w(name, weight):
+    if (name, weight) not in _maps:
+        m = {}
+        for f in sorted(glob.glob(os.path.join(FONT_DIR, name, "files", f"*-{weight}-normal.woff"))):
+            for cp in TTFont(f)["cmap"].getBestCmap():
+                m.setdefault(cp, f)
+        _maps[(name, weight)] = m
+    return _maps[(name, weight)]
+
+
+BOLDEN = {"hachi-maru-pop": 2.2, "yomogi": 2.2, "klee-one": 1.2, "kaisei-decol": 0.8}
+
+
+def render_line_font(text, size, name, weight):
+    m = charmap_w(name, weight)
+    parts, x = [], 0
+    for ch in text:
+        path = m.get(ord(ch), GOTHIC)
+        if (path, size) not in _fonts:
+            _fonts[(path, size)] = ImageFont.truetype(path, size)
+        f = _fonts[(path, size)]
+        parts.append((ch, x, f)); x += f.getlength(ch)
+    im = Image.new("RGBA", (int(x) + 2, int(size * 1.4)), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    for ch, px, f in parts:
+        b = int(BOLDEN.get(name, 0) * size / 80)       # 細い書体は線を太らせる
+        d.text((px, size * 0.7), ch, font=f, fill=BLACK, anchor="lm", stroke_width=b, stroke_fill=BLACK)
+    return im.crop(im.getbbox())
+
+
+def sticker_font(lines, kao, name, weight, size=80, tilt=-4):
+    canvas = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    lines = [strip_emoji(l) for l in lines]
+    while True:
+        rows = [render_line_font(l, size * S, name, weight) for l in lines]
+        gap = int(size * S * 0.18)
+        bw = max(r.width for r in rows); bh = sum(r.height for r in rows) + gap * (len(rows) - 1)
+        k = render_line(kao, int(size * 0.72) * S, (50, 50, 50, 255), plain=True)
+        if bw <= W - 50 * S and bh + k.height <= H - 2 * MARGIN - 30 * S:
+            break
+        size -= 2
+    block = Image.new("RGBA", (bw, bh), (0, 0, 0, 0)); y = 0
+    for r in rows:
+        block.alpha_composite(r, ((bw - r.width) // 2, y)); y += r.height + gap
+    block = outline(block, 6 * S).rotate(tilt, expand=True, resample=Image.BICUBIC)
+    ks = min(56 * S, int(size * 0.72) * S)
+    k = render_line(kao, ks, (50, 50, 50, 255), plain=True)
+    k = outline(k, 5 * S).rotate(4, expand=True, resample=Image.BICUBIC)
+    total = block.height + k.height - 12 * S
+    by = (H - total) // 2
+    canvas.alpha_composite(block, ((W - block.width) // 2, by))
+    canvas.alpha_composite(k, ((W - k.width) // 2 + 20 * S, by + block.height - 12 * S))
+    return canvas.resize((370, 320), Image.LANCZOS)
+
+
+# （セリフ, 顔文字, 書体, 太さ, 選んだ理由）
+V4 = [
+    (["オツカレ", "サマ❗"], "(^_^)v", "reggae-one", 400, "勢いのある筆文字で、張り切った労い"),
+    (["了解ダヨ"], "(^o^)ゞ", "dela-gothic-one", 400, "極太ゴシックで、無駄に力強い返事"),
+    (["キミ、元気", "カナ❓"], "(^3<)", "hachi-maru-pop", 400, "丸文字で、年齢に合わない若作り"),
+    (["寝ちゃったの", "カナ❓"], "(^_^;", "yomogi", 400, "夜中にスマホで打ったような、ゆるい手書き"),
+    (["ナンチャ", "ッテ"], "(笑)(^3<)", "rampart-one", 400, "立体のおどけた文字で、ごまかし"),
+    (["オジサンは、", "キミの味方", "ダカラネ❗"], "(^_^)", "shippori-mincho-b1", 800, "重い明朝体で、決め台詞の圧"),
+    (["そろそろ、", "ご飯行こうヨ"], "(^o^)", "kaisei-decol", 700, "昭和の喫茶店のようなレトロ書体"),
+    (["返信、", "待ってるヨ❗"], "(◎＿◎;)", "dotgothic16", 400, "ガラケーのドット文字で、無機質な催促"),
+    (["くれぐれも、", "体調に", "気をつけテ"], "(^^;;", "klee-one", 600, "ペン字の手紙のような、丁寧すぎる気遣い"),
+    (["ゴメンネ"], "(◎＿◎;)", "potta-one", 400, "筆ポップで、軽い謝罪"),
+]
+
+
+def main_v4():
+    os.makedirs(OUT4, exist_ok=True)
+    paths = []
+    for i, (lines, kao, name, wt, _) in enumerate(V4, 1):
+        p = os.path.join(OUT4, f"{i:02d}.png")
+        sticker_font(lines, kao, name, wt).save(p); paths.append(p)
+    cols = 5; tw, th = 185, 160
+    prev = Image.new("RGBA", (cols * (tw + 10) + 10, 2 * (th + 10) + 10), (140, 171, 216, 255))
+    for n, p in enumerate(paths):
+        prev.alpha_composite(Image.open(p).resize((tw, th), Image.LANCZOS), (10 + n % cols * (tw + 10), 10 + n // cols * (th + 10)))
+    prev.save(os.path.join(OUT4, "_preview.png"))
+
+
+if __name__ == "__main__":
+    main_v4()
