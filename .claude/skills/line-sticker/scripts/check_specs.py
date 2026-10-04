@@ -15,7 +15,7 @@ ng = 0
 stickers = sorted(p for p in glob.glob(os.path.join(d, "*.png")) if os.path.basename(p)[:2].isdigit())
 if len(stickers) not in COUNTS:
     print(f"NG 個数 {len(stickers)}（8/16/24/32/40 のどれか）"); ng += 1
-for p in glob.glob(os.path.join(d, "*.png")):
+for p in glob.glob(os.path.join(d, "[!_]*.png")):  # _ で始まるプレビューは除外
     name = os.path.splitext(os.path.basename(p))[0]
     im = Image.open(p)
     w, h = im.size
