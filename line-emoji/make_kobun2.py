@@ -183,3 +183,78 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# ---- v3: 絵文字なし（セリフ＋顔文字のみ） ----
+OUT3 = os.path.join(os.path.dirname(os.path.abspath(__file__)), "kobun_stickers_v3")
+NO_EMOJI = {"❗": "！", "❓": "？"}
+RED = (225, 45, 45, 255)
+
+
+def strip_emoji(s):
+    return "".join(NO_EMOJI.get(c, "" if is_emoji(c) or c == "️" else c) for c in s)
+
+
+def render_line_marks(text, size, color):
+    """！？だけ赤くして1行を描く"""
+    parts, x = [], 0
+    for ch in text:
+        f = font_for(ch, size); parts.append((ch, x, f)); x += f.getlength(ch)
+    im = Image.new("RGBA", (int(x) + 2, int(size * 1.3)), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    for ch, px, f in parts:
+        d.text((px, size * 0.65), ch, font=f, fill=RED if ch in "！？" else color, anchor="lm")
+    return im
+
+
+def sticker_simple(lines, kao, color=(40, 30, 30, 255), size=72, tilt=-4):
+    canvas = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    lines = [strip_emoji(l) for l in lines]
+    rows = [render_line_marks(l, size * S, color) for l in lines]
+    while max(r.width for r in rows) > W - 40 * S:
+        size -= 3; rows = [render_line_marks(l, size * S, color) for l in lines]
+    bw = max(r.width for r in rows); bh = sum(int(r.height * 0.92) for r in rows)
+    block = Image.new("RGBA", (bw, bh), (0, 0, 0, 0)); y = 0
+    for r in rows:
+        block.alpha_composite(r, ((bw - r.width) // 2, y)); y += int(r.height * 0.92)
+    block = outline(block, 6 * S).rotate(tilt, expand=True, resample=Image.BICUBIC)
+    # 顔文字: 大きめ、スマホ標準風のゴシック、反対向きに傾ける
+    ks = 56 * S
+    k = render_line(kao, ks, (50, 50, 50, 255), plain=True)
+    while k.width > W - 60 * S:
+        ks -= 3 * S; k = render_line(kao, ks, (50, 50, 50, 255), plain=True)
+    k = outline(k, 5 * S).rotate(4, expand=True, resample=Image.BICUBIC)
+    total = block.height + k.height - 18 * S
+    while total > H - 2 * MARGIN and size > 30:          # 縦に収まらない場合は縮小
+        return sticker_simple(lines, kao, color, size - 4, tilt)
+    by = (H - total) // 2
+    canvas.alpha_composite(block, ((W - block.width) // 2, by))
+    canvas.alpha_composite(k, ((W - k.width) // 2 + 20 * S, by + block.height - 18 * S))
+    return canvas.resize((370, 320), Image.LANCZOS)
+
+
+# 絵文字なし版で文字を大きく見せるための改行位置
+V3_LINES = {
+    1: ["オツカレ", "サマ❗"],
+    6: ["オジサンは、", "キミの味方", "ダカラネ❗"],
+    8: ["返信、", "待ってるヨ❗"],
+    9: ["くれぐれも、", "体調に", "気をつけテ"],
+}
+
+
+def main_v3():
+    os.makedirs(OUT3, exist_ok=True)
+    paths = []
+    for i, (lines, kao, _, col) in enumerate(STICKERS, 1):
+        lines = V3_LINES.get(i, lines)
+        p = os.path.join(OUT3, f"{i:02d}.png")
+        sticker_simple(lines, kao, col).save(p); paths.append(p)
+    cols = 5; tw, th = 185, 160
+    prev = Image.new("RGBA", (cols * (tw + 10) + 10, 2 * (th + 10) + 10), (140, 171, 216, 255))
+    for n, p in enumerate(paths):
+        prev.alpha_composite(Image.open(p).resize((tw, th), Image.LANCZOS), (10 + n % cols * (tw + 10), 10 + n // cols * (th + 10)))
+    prev.save(os.path.join(OUT3, "_preview.png"))
+
+
+if __name__ == "__main__":
+    main_v3()
