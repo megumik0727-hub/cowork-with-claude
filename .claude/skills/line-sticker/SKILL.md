@@ -92,3 +92,8 @@ White background, generous margins, no other text anywhere in the image.
 - 書体は npm の `@fontsource/*` から取得する。GitHubへの直接アクセスは403になる。大きな日本語書体は文字ごとにファイルが分かれているので、fontTools で文字と書体ファイルの対応表を作って使う。
 - 絵文字は `/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf`（OFL）を size=109、`embedded_color=True` で描いてから縮小する。iPhoneの絵文字の絵柄は使えない。
 - ただし、手描きプログラムのキャラクターは「AI感・素人感」が出やすい。絵柄はCanvaに任せる方が評価が高かった。
+
+## 7. 細部の手直し（Canva上）
+
+- 目の向きなど小さな修正は、画像を作り直さずに図形を重ねて直せる。肌色（ゆるクマは #dac7af）の角丸四角で元の線を隠し、線色（#5c432c）の `insert_shape`（開いたパス＋stroke）で描き直す。
+- 細部は通常のサムネイルでは見えない。作業用の1ページ目に同じ画像を14倍（300→4200px）で置き、目元がページに収まる位置にずらすと、拡大して見られる。そこで図形の位置と太さを決め、座標を1/14にしてスタンプのページに置く。確認後、1ページ目の拡大用要素は消す。
