@@ -1,10 +1,10 @@
-# ゆるクマおじさん LINEスタンプ（試作80枚）
+# ゆるクマおじさん LINEスタンプ（4セット×24枚）
 
 キャラクター原画: [Canvaで開く](https://www.canva.com/M/MAHXBGNiB4c)
 
-高画質版は各リンクからCanvaで確認できる。フォルダ内の `*_preview.jpg` は確認用の縮小画像（200px）。
+高画質版は各リンクからCanvaで確認できる。フォルダ内の `*_preview.jpg` は確認用の縮小画像（200px）。21〜24は24枚セットにするための追加分。
 
-## 【基本】日常使い・挨拶系
+## 【基本】日常使い・挨拶系（24枚）
 
 | # | セリフ | Canva |
 |---|---|---|
@@ -28,8 +28,12 @@
 | 18 | 今夜は美味しいもの食べてネ🍖寿司🍣 | [開く](https://www.canva.com/M/MAHXBU0RphM) |
 | 19 | 今日もお互い無事に乗り切ったネ🫡 | [開く](https://www.canva.com/M/MAHXBVfvnmg) |
 | 20 | 夜は冷え込むから温かくして寝てネ〜🛏️💤 | [開く](https://www.canva.com/M/MAHXBc2B8hs) |
+| 21 | おやすみナサイ〜😴🌙また明日ネ✋ | [開く](https://www.canva.com/M/MAHXBq5_qiA) |
+| 22 | 今日は暑いネ〜☀️水分補給してネ💦 | [開く](https://www.canva.com/M/MAHXBtNnms4) |
+| 23 | オジサン今ランチ中だヨ🍜（笑） | [開く](https://www.canva.com/M/MAHXBvqBS7c) |
+| 24 | 既読ついてるヨ〜😃✋（笑） | [開く](https://www.canva.com/M/MAHXBskwoLQ) |
 
-## 【派生①】感謝・褒める・共感系
+## 【派生①】感謝・褒める・共感系（24枚）
 
 | # | セリフ | Canva |
 |---|---|---|
@@ -53,8 +57,12 @@
 | 18 | いつもフォローしてくれて感謝だヨ🙏✨ | [開く](https://www.canva.com/M/MAHXBW6RwQU) |
 | 19 | オジサン味方だから何でも言ってネ💪😃 | [開く](https://www.canva.com/M/MAHXBcChACE) |
 | 20 | 嬉しすぎて跳び上がっちゃいました〜イエイ✌️😃 | [開く](https://www.canva.com/M/MAHXBQqdois) |
+| 21 | おめでとう〜🎉オジサンも嬉しいヨ😭✨ | [開く](https://www.canva.com/M/MAHXBnLnyYo) |
+| 22 | キミのおかげだヨ〜🙏💕 | [開く](https://www.canva.com/M/MAHXBmWdWUU) |
+| 23 | さすがだネ〜オジサン見習わなきゃ📝😃 | [開く](https://www.canva.com/M/MAHXBp9mhP4) |
+| 24 | お土産アリガトウネ〜🎁😋 | [開く](https://www.canva.com/M/MAHXBiOg_1k) |
 
-## 【派生②】承諾・了解・返信系
+## 【派生②】承諾・了解・返信系（24枚）
 
 | # | セリフ | Canva |
 |---|---|---|
@@ -78,8 +86,12 @@
 | 18 | 了解〜オジサンも楽しみに待ってますッ♪ | [開く](https://www.canva.com/M/MAHXBcNMwNw) |
 | 19 | もちろん良いヨ〜むしろ大歓迎だヨ👍💕 | [開く](https://www.canva.com/M/MAHXBfgm4nY) |
 | 20 | 承知しましたッ🫡今日も頑張ろうネ💪 | [開く](https://www.canva.com/M/MAHXBfWGrDQ) |
+| 21 | 了解〜詳細は後で教えてネ📱😉 | [開く](https://www.canva.com/M/MAHXBg4u-yI) |
+| 22 | 確認しておきますッ🔍✨ | [開く](https://www.canva.com/M/MAHXBrM59sg) |
+| 23 | 全然OKだヨ〜気にしないでネ👌😊 | [開く](https://www.canva.com/M/MAHXBv7NuqY) |
+| 24 | スケジュール空けておきますッ📅✨ | [開く](https://www.canva.com/M/MAHXBhBgn_o) |
 
-## 【派生③】謝罪・言い訳・労り系
+## 【派生③】謝罪・言い訳・労り系（24枚）
 
 | # | セリフ | Canva |
 |---|---|---|
@@ -103,3 +115,7 @@
 | 18 | 今日はもう休んで明日また頑張ろうネ🛏️✨ | [開く](https://www.canva.com/M/MAHXBl5VYas) |
 | 19 | 心配になっちゃいました💦大丈夫カナ…❓ | [開く](https://www.canva.com/M/MAHXBm4mnt0) |
 | 20 | オジサンが代わってあげたいくらいだヨ😭💪 | [開く](https://www.canva.com/M/MAHXBrHBZRU) |
+| 21 | 寝坊しちゃいました〜😭⏰（汗） | [開く](https://www.canva.com/M/MAHXBlnGqI0) |
+| 22 | 既読スルーしちゃってゴメンネ〜📱💦 | [開く](https://www.canva.com/M/MAHXBrgPZIo) |
+| 23 | お大事にネ🍵ゆっくり治してネ | [開く](https://www.canva.com/M/MAHXB9nJabY) |
+| 24 | 行けなくなっちゃった…本当にゴメンネ🙏😭 | [開く](https://www.canva.com/M/MAHXB_8scSo) |
