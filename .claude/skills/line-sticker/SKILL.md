@@ -68,6 +68,8 @@ White background, generous margins, no other text anywhere in the image.
 - 画像の外枠と絵の間に **10pxぐらいの余白** が必要。
 - ZIPでまとめてアップロードする場合は60MB以下。審査をリクエストしたあとは、個数を変更できない。
 - 手順：Canvaの `remove-background` で背景を消す → 余白10px以上を取って、370×320以内の偶数サイズに配置する → `scripts/check_specs.py <フォルダ>` で、サイズ、透過、余白、四隅の消し残し、個数、容量を確認する。黒背景に重ねて、目でも消し残しを確認する。
+- Canvaでの配置：`create-design` で作業用デザインを作り（1264×1264の白紙が1ページできる）、`read-design`（open_transaction）→ `edit-design` の `add_page`（page_index=1）で370×320を個数分、240×240、96×74を足す。いったんcommitしてから開き直してページIDを取り、`insert_fill` でスタンプを300×300・(35,10)、メインを220×220・(10,10)、タブを70×70・(13,2)に置き、commitする。
+- ZIP：export-download.canva.com はこの環境から取得できない。ユーザーにCanvaの「共有 → ダウンロード → PNG・背景透過・2ページ目以降」でダウンロードしてもらう。受け取ったzipを `scripts/package.py <zip> <出力zip>` に通すと、画像サイズで振り分けて 01〜NN.png、main.png、tab.png に名前を付け直す。展開して `check_specs.py` を通してから返す。
 
 ### NGなスタンプ（審査で見られる点）
 
