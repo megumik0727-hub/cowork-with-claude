@@ -7,7 +7,8 @@
 | 承諾 | [ゆるクマおじさん構文 承諾 書き出し用](https://canva.link/2507o2c9996091n)（DAHXDTjYvqo） | 同じページ構成。配置済み |
 | 謝罪 | [ゆるクマおじさん構文 謝罪 書き出し用](https://canva.link/si5410yzrnxbehn)（DAHXDf7GKGo） | 同じページ構成。配置済み。shazai15は顔の縦線と余計な線をなくした画像に作り直して差し替え（旧 MAHXDWTl3gQ）。shazai18は崩れていた左耳を図形で描き直し |
 
-- 申請用ZIP：Canvaから2〜27ページ目をPNG（背景透過）でダウンロードし、`.claude/skills/line-sticker/scripts/package.py` で 01〜24.png・main.png・tab.png に名前を付け直す。
+- 申請用ZIP（2026-10-04 4セットとも作成・チェック済み）：`submit/yurukuma_kihon.zip`、`yurukuma_kansha.zip`、`yurukuma_shodaku.zip`、`yurukuma_shazai.zip`。
+- 作り方：Canvaから2〜27ページ目をPNG（背景透過）でダウンロードし、`.claude/skills/line-sticker/scripts/package.py` で 01〜24.png・main.png・tab.png に名前を付け直す。
 
 - 1ページ目（1264×1264の白紙）は作業用なので書き出し対象外。
 - 配置ルール: スタンプは370×320のページに300×300で(35,10)に配置（上下10px・左右35pxの余白）。メインは240×240に220×220、タブは96×74に70×70。
